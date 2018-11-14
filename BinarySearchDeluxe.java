@@ -84,8 +84,6 @@ public class BinarySearchDeluxe {
     }
     
     
-    
-    //The following is from the overview video
     private static class IntComp implements Comparator<Integer> {
         public int compare(Integer a, Integer b) {
             return a.compareTo(b);
@@ -101,7 +99,7 @@ public class BinarySearchDeluxe {
         return outputInts;
     }
     
-    // unit testing (required)
+    // unit testing
     public static void main(String[] args) {
         int[] someInts = {10, 10, 20, 30, 30, 30, 40, 50, 50, 70, 70, 70};
         Integer[] intObjects = toInteger(someInts);
