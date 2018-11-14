@@ -52,7 +52,7 @@ public class Autocomplete {
             return lastIndex - firstIndex + 1;
         }
 
-        // unit testing (required)
+        // unit testing
         public static void main(String[] args) {
 
             // read in the terms from a file
