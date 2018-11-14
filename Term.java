@@ -46,7 +46,6 @@ public class Term implements Comparable<Term> {
         return new byPrefixOrder(r);
     }
 
-    // you will need to define another private static nested class.
     // Since you will need to create a comparator that depends upon an
     // integer parameter r, the nested class should have a constructor
     // that takes r as an argument and saves it in an instance variable.
@@ -98,7 +97,7 @@ public class Term implements Comparable<Term> {
         return Long.toString(weight) + '\t' + query;
     }
 
-    // unit testing (required)
+    // unit testing
     public static void main(String[] args) {
         
     }
